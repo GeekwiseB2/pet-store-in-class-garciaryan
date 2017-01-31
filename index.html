@@ -16,7 +16,7 @@
 				<img src="img/petstore_logo.png" alt="Logo" class="img-responsive pull-left" id="logo-img">
 				<span class="pull-left">pet store</span>
 			</div>
-			<ul class="nav nav-pills">
+			<ul class="nav nav-pills pull-right">
 				<li role="presentation"><a href="#">Home</a></li>
 				<li role="presentation"><a href="#">Products</a></li>
 			  <li role="presentation"><a href="#">Contact Us</a></li>
@@ -29,10 +29,12 @@
 		<!-- FEATURED SECTION STARTS -->
 		<div class="container">
 			<div class="row">
-				<div class="col-md-9">  <!-- featured section starts -->
+				<div class="col-md-8">  <!-- featured section starts -->
 					<div class="row">
-						<h2>FEATURED</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam laborum modi cum voluptas exercitationem sit perferendis. Iste nisi minima ratione, pariatur dignissimos cupiditate odit doloribus velit maxime ipsa laudantium neque.</p>
+						<div class="col-md-12">
+							<h2>FEATURED</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam laborum modi cum voluptas exercitationem sit perferendis. Iste nisi minima ratione, pariatur dignissimos cupiditate odit doloribus velit maxime ipsa laudantium neque.</p>
+						</div>
 					</div>
 					<div class="row"> <!-- Featured thumbnails start -->
 						<div class="col-md-4">
@@ -79,11 +81,47 @@
 						</div>
 					</div> <!-- Featured thumbnails end -->
 				</div> <!-- featured section ends -->
-				<div class="col-md-3"> <!-- Services section starts -->
-
+				<div class="col-md-3 col-md-offset-1" id="services-section"> <!-- Services section starts -->
+					<div class="row"> <!-- Nav Stacked pills start -->
+						<h2>SERVICES</h2>
+						<ul class="nav nav-pills nav-stacked" id="services-nav">
+						  <li role="presentation"><a href="#">Adopt a Cat</a></li>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+						  <li role="presentation"><a href="#">Adopt a Dog</a></li>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+						  <li role="presentation"><a href="#">Adopt a Fish</a></li>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+						</ul>
+					</div> <!-- Nav Stacked pills end -->
 				</div> <!-- Services section ends -->
 			</div>
-		</div>
+		</div> <!-- FEATURED SECTION ENDS -->
+		<footer class="container-fluid">
+			<div class="container">
+				<div class="row" id="grey-text">
+					<div class="col-md-3">
+						<img src="img/petstore_logo.png" alt="Logo" class="img-responsive" id="footer-logo">
+					</div>
+					<div class="col-md-2 border-left-grey">
+						<address>
+							Pet Store <br/>
+							Fresno, CA <br/>
+							info@petstore.com
+						</address>
+					</div>
+					<div class="col-md-2 border-left-grey">
+						<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</a>
+						<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i>Facebook</a>
+						<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i>LinkedIn</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<p>&copy;Pet Store, Inc. All Rights Reserved</p>
+					</div>
+				</div>
+			</div>
+		</footer>
 		<!-- scripts -->
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>

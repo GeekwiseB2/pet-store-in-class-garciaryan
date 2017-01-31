@@ -4,6 +4,7 @@
 body, html {
   margin: 0;
   padding: 0;
+  font-family: 'Helvetica Neue', sans-serif;
 }
 
 
@@ -33,12 +34,9 @@ header.container-fluid {
   top: 12px;
   left: 20px;
 }
-
 .nav-pills {
-  float: right;
-  padding-top: 50px;
+  
 }
-
 .nav>li>a {
   font-size: 22px;
   color: #64B0E7;
@@ -74,4 +72,45 @@ header.container-fluid {
 
 .caption>p {
   font-size: 15px;
+}
+
+/*=======SERVICES SECTION=======*/
+#services-section {
+  text-align: center;
+}
+
+#services-nav>li>a {
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+/*=======FOOTER=======*/
+footer {
+  background-color: #231F20;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#grey-text {
+  color: #BFC0C1;
+}
+
+.border-left-grey {
+  border-left: 1px solid #302F2F;
+}
+
+address {
+  font-size: 18px;
+}
+
+.border-left-grey>a {
+  display: block;
+  color: #BFC0C1;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+#footer-logo {
+  width: 120px;
+  height: 100px;
 }
