@@ -19,7 +19,6 @@ header.container-fluid {
   width: 95px;
   height: 85px;
   position: relative;
-  top: 12px;
   left: 20px;
 }
 
@@ -31,11 +30,10 @@ header.container-fluid {
   text-transform: capitalize;
   padding-top: 25px;
   position: relative;
-  top: 12px;
   left: 20px;
 }
 .nav-pills {
-  
+
 }
 .nav>li>a {
   font-size: 22px;
